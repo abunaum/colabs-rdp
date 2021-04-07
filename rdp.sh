@@ -47,7 +47,7 @@ fi
 sudo adduser abunaum sudo
 
 # Set password of user to 'root'
-echo 'user:root' | sudo chpasswd
+echo 'abunaum:root' | sudo chpasswd
 
 # Change default shell from sh to bash
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
